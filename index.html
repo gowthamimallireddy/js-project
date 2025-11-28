@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Goals Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar">
+    <h2>Goal Tracker</h2>
+    <ul class="nav-links">
+        <li id="welcomeUser"></li>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#" onclick="logout()">Logout</a></li>
+    </ul>
+</nav>
+<div class="main">
+ <h1><marquee  behaviour="alternate" scrollamount="10" width="500px;">🎯 Personal Goals Tracker</marquee></h1>
+ </div>
+<div id="mainContent" style="display:none;">
+    <header>
+        <p id="quote">Loading motivational quote...</p>
+    </header>
+
+    <button class="add-btn" onclick="openPopup()">+ Add New Goal</button>
+
+    <div class="goals-container" id="goalsContainer"></div>
+    <div class="popup" id="goalPopup">
+        <div class="popup-content">
+            <h3 id="popupTitle">Add New Goal</h3>
+            <input type="text" id="goalName" placeholder="Goal Name">
+            <input type="number" id="goalTarget" placeholder="Target Value">
+            <div class="popup-buttons">
+                <button class="btn save-btn" onclick="saveGoal()">Save</button>
+                <button class="btn close-btn" onclick="closePopup()">Close</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+<footer class="footer">
+<div id="Contact" class="Contact-section">
+<h1>Contact Us</h1>
+    <div class="contact-box">
+        <div class="contact-item">
+            <p> <span class="icon">📞</span>+91 98765 43210</p>
+        </div>
+        <div class="contact-item">
+            <p><span class="icon">📧</span>support@goaltracker.com</p>
+        </div>
+        <div class="contact-item">
+            <p><span class="icon">📍</span>Hyderabad, India</p>
+        </div>
+    </div>
+    </div>
+    <p>© 2025 Goal Tracker. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
