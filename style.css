@@ -3,7 +3,6 @@ body {
     font-family: Poppins, sans-serif;
     background-image: url(./ChatGPT\ Image\ Nov\ 28\,\ 2025\,\ 10_49_22\ AM.png);
     background-size: cover;
-    background-repeat: no-repeat;
     margin: 0; 
     padding: 20px;
     text-align: center;
@@ -321,7 +320,7 @@ nav{
         gap: 5px;
     }
     .footer{
-        margin-top: 200px;
+        margin-top: 350px;
         margin-bottom: 1px;
     }
 }
