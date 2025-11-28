@@ -284,6 +284,7 @@ nav{
     }
     .footer{
         font-size: medium;
+        margin-bottom: 1px;
     }
 }
 
@@ -314,9 +315,10 @@ nav{
     }
     .contact-box {
         flex-direction: column;
-        gap: 25px;
+        gap: 10px;
     }
     .footer{
         margin-top: 50px;
+        margin-bottom: 1px;
     }
 }
