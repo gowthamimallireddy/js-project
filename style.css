@@ -1,4 +1,5 @@
 
+
 body {
     font-family: Poppins, sans-serif;
     background-image: url(./ChatGPT\ Image\ Nov\ 28\,\ 2025\,\ 10_49_22\ AM.png);
@@ -272,6 +273,7 @@ nav{
     }
     .goals-container {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        width:fit-content;
     }
     .main {
         margin-top: 70px;
@@ -314,7 +316,7 @@ nav{
         flex-direction: column;
         gap: 25px;
     }
-    .about-section h1 {
-        font-size: 30px;
+    .footer{
+        margin-top: 50px;
     }
 }
